@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenyWill/node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shenyWill/node/issues"
+  },
+  "homepage": "https://github.com/shenyWill/node#readme",
+  "devDependencies": {
+    "ejs": "^2.6.1",
+    "formidable": "^1.2.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
