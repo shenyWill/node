@@ -15,6 +15,9 @@ app.get('/',router.showIndex);
 // album相册
 app.get('/:albumName',router.showAlbum);
 
+// 上传
+app.get('/up',router.showUp)
+
 // 404页面
 app.use(function(req,res) {
     res.render('error.ejs',{

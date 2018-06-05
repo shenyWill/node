@@ -23,3 +23,11 @@ exports.showAlbum = (req,res,next) => {
     })
 
 }
+
+exports.showUp = (req,res) => {
+    file.getAllAlbums(function(allAlbum) {
+        res.render('up',{
+            albums : allAlbum
+        })
+    })
+}

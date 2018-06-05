@@ -45,3 +45,6 @@ exports.getAllImagesByAlbumName = function(albumName,callback){
         })(0)
     })
 }
+exports.showUp = function(req,res) {
+    
+}
